@@ -5,7 +5,7 @@
  * Reads accelerometer, gyroscope, and temperature data at 20Hz.
  * Outputs data in CSV format to the Serial monitor.
  * 
- * Arduino Nano pinout, each needs a 4.7k pull-up resistor:
+ * Arduino Nano pinout, SCL & SDA both need a 4.7k pull-up resistor:
  *   A4  -> SDA
  *   A5  -> SCL
  *   GND -> SDO
